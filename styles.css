@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-esportivo-do-campeonato-de-basquete-3d-com-vetor-de-espaco-de-texto_1017-44926.avif');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -41,9 +41,9 @@ section {
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
-    right: 0;
+    right: 50;
     top: 18rem;
-    width: 45rem;
+    width: 50rem;
     height: auto;
 }
 
