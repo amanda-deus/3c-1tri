@@ -40,7 +40,7 @@ section {
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
-    position: absolute;
+   position: absolute;
     left: 50%;
     top: 18rem;
     transform: translateX(-50%);
