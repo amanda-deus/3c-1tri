@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/fundo-esportivo-do-campeonato-de-basquete-3d-com-vetor-de-espaco-de-texto_1017-44926.avif');
+    background-image:url('img/design-de-modelo-de-banner-de-torneio-de-basquete_622952-94.avif');
     /* Substitua pelo caminho da sua imagem */
     position: relative;
     background-size: cover;
@@ -38,16 +38,19 @@ section {
     padding: 40px;
     margin: 0 auto;
 }
-
-/* posicionamento para a imagem à direita */
 .img-inicio {
-   position: absolute;
-    left: 50%;
-    top: 18rem;
-    transform: translateX(-50%);
-    width: 50rem;
-    height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   text-align: center;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
 
 .esquerda-conteudo {
     display: flex;
@@ -55,7 +58,6 @@ section {
     align-items: flex-start;
     gap: 1rem;
 }
-
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -79,8 +81,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/bola\ de\ basquete.png') top right no-repeat,
+        url('img/bola\ de\ basquete.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -92,7 +94,11 @@ section {
     position: relative;
     z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
+    text-align: center; 
+    /* Centraliza horizontalmente */
+    
 }
+
 
 
 h2 {
@@ -100,6 +106,8 @@ h2 {
     font-size: 2.5em;
     font-style: normal;
     color: var(--laranja-claro);
+    text-align: center; 
+    /* Centraliza horizontalmente */
 }
 
 #galeria {
@@ -108,14 +116,16 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/bola\ de\ basquete.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/padrao-sem-costura-de-basquete-com-bolas-laranja-brilhantes-ilustracao-moderna-para-banners-de-folhetos-web_554867-1024.avif');
     background-size: cover;
     padding: 4rem 0;
+    border-radius: 60px;
+     /* Borda arredondada para o fundo */
     /* Espaçamento interno para a seção de contato */
 
 }
@@ -132,7 +142,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #e05f23;
     border: none;
     font-weight: bold;
 }
