@@ -44,7 +44,7 @@ section {
    position: absolute;
     left: 50%;
     top: 18rem;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
     width: 50rem;
     height: auto;
 }
