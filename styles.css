@@ -110,14 +110,22 @@ h2 {
     /* Centraliza horizontalmente */
 }
 
-#galeria {
-    background-color: #FAF4F4;
-
+#galeria
+ { 
+    /* Centraliza horizontalmente */
+    background-color: #F1EDEF;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de galeria */
+    border-radius: 60px;
+    /* Borda arredondada para o fundo */
 }
 
-.fundo-galeria {
-    background: url('img/bola\ de\ basquete.png') bottom right no-repeat;
-    background-size: 180px 180px;
+#galeria img {
+    width: 300px; /* Largura fixa */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço definido */
+    border-radius: 5px; /* Bordas arredondadas para as imagens */
+    margin: 10px; /* Espaço entre as imagens */
 }
 
 #contato {
