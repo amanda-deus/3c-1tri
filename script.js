@@ -19,9 +19,6 @@ botaoDeAcessibilidade.addEventListener('click', function (){
             tamanhoAtualFonte -= 0.1;
             document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
         });
-    } else {
-        console.error("Botões não encontrados. Verifique os IDs no HTML.");
-    }
 });
    const alternaContraste = document.getElementById('alterna-contraste')
    alternaContraste.addEventListener('click', function(){

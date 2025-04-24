@@ -189,10 +189,6 @@ h2 {
     --alto-contraste-link: #ffd700;
 }
 
-.alto-contraste{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
@@ -208,7 +204,6 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
     background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
 }
 
 .alto-contraste #tropicalia {
