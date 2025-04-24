@@ -3,7 +3,7 @@ botaoDeAcessibilidade.addEventListener('click', function (){
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
    })
 
-   document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
     const aumentaFonteBotao = document.getElementById('aumenta-fonte'); 
     const diminuiFonteBotao = document.getElementById('diminui-fonte'); 
 
